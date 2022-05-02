@@ -13,6 +13,7 @@ public class FunctionInterfaceConcept {
 		System.out.println(Len);
 		
 //		Chaining Function
+		
 		Function<Integer, Integer> func2 = x -> x * 2;
 		
 		int result = func.andThen(func2).apply("This is Java 1.8");
