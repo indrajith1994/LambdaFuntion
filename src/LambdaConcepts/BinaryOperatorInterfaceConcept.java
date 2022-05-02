@@ -10,6 +10,8 @@ public class BinaryOperatorInterfaceConcept {
 		
 		BinaryOperator<Integer> func = (x1,x2) -> x1+x2;
 		
+		
+		
 		int result = func.apply(10, 20);
 		System.out.println(result);
 		
